@@ -1,5 +1,6 @@
 import React from "react";
-//import "./Footer.css";
+import { Link } from "react-router-dom";
+// import "./Footer.css";
 
 function Footer() {
   return (
@@ -13,16 +14,16 @@ function Footer() {
               </h6>
               <ul className="list-unstyled footer-link mt-4">
                 <li>
-                  <a href="">Pages</a>
+                  <a href="#">Pages</a>
                 </li>
                 <li>
-                  <a href="">Our Team</a>
+                  <a href="#">Our Team</a>
                 </li>
                 <li>
-                  <a href="">Feuchers</a>
+                  <a href="#">Feuchers</a>
                 </li>
                 <li>
-                  <a href="">Pricing</a>
+                  <a href="#">Pricing</a>
                 </li>
               </ul>
             </div>
@@ -35,16 +36,16 @@ function Footer() {
               </h6>
               <ul className="list-unstyled footer-link mt-4">
                 <li>
-                  <a href="">Wikipedia </a>
+                  <a href="https://en.wikipedia.org/wiki/Blog">Wikipedia </a>
                 </li>
                 <li>
-                  <a href="">React blog</a>
+                  <a href="https://react.dev/blog">React blog</a>
                 </li>
                 <li>
-                  <a href="">Term &amp; Service</a>
+                  <a href="https://www.termsfeed.com/blog/terms-conditions-blogger-blogspot/">Term &amp; Service</a>
                 </li>
                 <li>
-                  <a href="">Angular dev</a>
+                  <a href="https://angular.dev/">Angular dev</a>
                 </li>
               </ul>
             </div>
@@ -55,16 +56,16 @@ function Footer() {
               <h6 className="footer-heading text-uppercase text-white">Help</h6>
               <ul className="list-unstyled footer-link mt-4">
                 <li>
-                  <a href="">Sign Up </a>
+                  <Link to="/signup">Sign Up</Link>
                 </li>
                 <li>
-                  <a href="">Login</a>
+                  <Link to="/signin">Sign In</Link>
                 </li>
                 <li>
-                  <a href="">Terms of Services</a>
+                  <a href="#">Terms of Services</a>
                 </li>
                 <li>
-                  <a href="">Privacy Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -85,7 +86,7 @@ function Footer() {
       </div>
 
       <div className="text-center mt-5">
-        <p className="footer-alt mb-0 f-14">2024 © VNR, All Rights Reserved</p>
+        <p className="footer-alt mb-0 f-14">2025 © VNR, All Rights Reserved</p>
       </div>
     </footer>
   );
